@@ -1,0 +1,48 @@
+.expert-help-color-container{
+    background-color: #f5f5f5;
+}
+.expert-help-container{
+    padding-top: 56px;
+    width: 60%;
+}
+.expert-help{
+    margin-left: 80px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.expert-help-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.expert-help-specialities{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.expert-help-flexitems{
+    display: flex;
+    justify-content: space-between;
+}
+.expert-help-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 22%;
+    margin-bottom: 64px;
+}
+.expert-help-item-image img {
+    height: 36px;
+    width: 36px;
+}
+.expert-help-item-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    text-align: center;
+    width: 100%;
+}

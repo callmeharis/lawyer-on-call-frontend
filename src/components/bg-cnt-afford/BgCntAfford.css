@@ -1,0 +1,82 @@
+.bg-cnt-afford {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 1000px;
+    position: relative;
+}
+@media (min-width: 1025px) {
+    .bg-cnt-afford {
+        background-image: url("../../../public/images/cntafford.jpg");
+        background-position: center !important;
+    }
+}
+
+@media (max-width: 1366px) and (min-width: 1201px) {
+    .ctn-afford-white0-bg {
+        width: calc(100% - 520px);
+    }
+}
+.cnt-afford-container{
+    background: #f5f5f5;
+    padding-top: 56px;
+    width: 60%;
+}
+@media (max-width: 1366px) and (min-width: 1201px) {
+    .cnt-afford-container {
+        margin-right: 35px;
+    }
+}
+@media (max-width: 1366px) and (min-width: 1201px) {
+        .cnt-afford-container-cnt-afford{
+            margin-left: 80px;
+            margin-right: 35px;
+    }
+}
+.cnt-afford-container-title-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    padding-top: 56px;
+}
+.cnt-afford-container-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.cnt-afford-container-description{
+    margin-bottom: 32px;
+    text-align: left;
+}
+.cnt-afford-container-description-text1{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.cnt-afford-container-description-text2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.cnt-afford-container-btn-container{
+    padding-bottom: 64px;
+}
+.cnt-afford-container-chat-button{
+    background-color: #f5f5f5;
+    border: 1px solid #00c508;
+    color: #00c508;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    line-height: 24px;
+    min-width: 150px;
+    padding: 12px 24px;
+}
+
+.cnt-afford-container-chat-button:hover {
+    border: 1px solid #00a507;
+    color: #00a507;
+}

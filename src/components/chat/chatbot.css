@@ -1,0 +1,95 @@
+.chatBox {
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  z-index: 10;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chatBoxHeader {
+  background-color: #3f67e1;
+  padding: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.chatBoxHeader p {
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem; 
+}
+
+.chatBoxHeader .profileImage {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  gap: 12px; 
+}
+
+.profileText .mainText {
+  font-size: 0.875rem; 
+}
+
+.profileText .subText {
+  font-size: 0.75rem; 
+}
+
+.chatBoxBody {
+  background-color: white;
+  padding: 16px;
+  flex: 1;
+}
+
+.chatBoxBody .assistantInfo {
+  display: flex;
+  align-items: center;
+}
+
+.assistantText {
+  margin-left: 8px;
+}
+
+.assistantText .name {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.assistantText .message {
+  background-color: #f5f5f5!important;
+  font-size: 0.875rem; 
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.chatBoxFooter {
+  padding: 16px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatBoxFooter input {
+  width: 100%;
+  padding: 8px 8px 40px 8px;
+  border: 1px solid #38a169; 
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.chatBoxFooter button {
+  border: none;
+  background-color: #00c508!important; 
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  border-radius: 3px;
+}
+
+.chatBoxFooter button:hover {
+  background-color: #2f855a;
+}
