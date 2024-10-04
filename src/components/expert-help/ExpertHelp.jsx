@@ -7,12 +7,14 @@ export default function ExpertHelp() {
       <div className="expert-help-container">
         <div className="expert-help">
           <div className="expert-help-title">
-            What can the Legal Experts do for you?
-          </div>
-          <div className="expert-help-specialities">
+            {/* What can the Legal Experts do for you? */}
             Your team of lawyers is ready to help you in minutes with any legal
             question, plus:
           </div>
+          {/* <div className="expert-help-specialities">
+            Your team of lawyers is ready to help you in minutes with any legal
+            question, plus:
+          </div> */}
           <div className="expert-help-flexitems">
             <div className="expert-help-item">
               <div className="expert-help-item-image">
@@ -27,7 +29,7 @@ export default function ExpertHelp() {
                 <img src="./images/Footsteps.svg" alt="expert-help-image" />
               </div>
               <div className="expert-help-item-description">
-                Protect your legal rights
+                Take the right next legal steps
               </div>
             </div>
             <div className="expert-help-item">
@@ -38,7 +40,7 @@ export default function ExpertHelp() {
                 />
               </div>
               <div className="expert-help-item-description">
-                Protect your legal rights
+                Ensure accuracy of legal documents
               </div>
             </div>
             <div className="expert-help-item">
@@ -46,7 +48,7 @@ export default function ExpertHelp() {
                 <img src="./images/Money.svg" alt="expert-help-image" />
               </div>
               <div className="expert-help-item-description">
-                Protect your legal rights
+                Avoid high-priced law firms
               </div>
             </div>
           </div>

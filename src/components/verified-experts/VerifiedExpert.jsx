@@ -7,10 +7,16 @@ export default function VerifiedExperts() {
       <div className="verified-expert">
         <div className="verified-expert-title">
           Hundreds of highly rated, verified Legal Experts
+          {/* Specialities include Real estate Contracts, Business Contracts,
+          Employment Contracts, Construction Contracts, Sales Contracts,
+          Insurance Contracts, Franchise Agreements, Licensing Agreements, Loan
+          and Credit Agreements, and Settlement Agreements */}
         </div>
         <div className="verified-expert-subtitle">
-          Specialties include Real Estate Law, Family Law, Employment Law,
-          Immigration Law, Consumer Protection, Estate Law and more…
+          Specialities include Real estate Contracts, Business Contracts,
+          Employment Contracts, Construction Contracts, Sales Contracts,
+          Insurance Contracts, Franchise Agreements, Licensing Agreements, Loan
+          and Credit Agreements, and Settlement Agreements
         </div>
         <div className="verified-expert-items">
           <div className="verified-expert-item">

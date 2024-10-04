@@ -8,11 +8,13 @@ export default function Hero() {
     <section id="hero-section">
       <div className="hero-content">
         <div className="logo">
-          <img src="./lawyer-logo.svg" alt="" />
+          <img src="./the-boyd-group-logo.png" alt="logo" />
+          {/* <h1>THE BOYD GROUP</h1> */}
         </div>
         <div className="tagline-with-steps">
           <div className="tagline-container">
-            <div className="tagline1">Talk to a Lawyer online now</div>
+            {/* <div className="tagline1">Talk to a Lawyer online now</div> */}
+            <div className="tagline1">Contract Law Done Right</div>
             <div className="tagline2">
               Unlimited chats with verified, top-rated lawyers.
             </div>

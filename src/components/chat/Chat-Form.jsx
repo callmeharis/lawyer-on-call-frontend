@@ -21,7 +21,10 @@ export default function ChatBox() {
       toast.warn("Please fill all the fields");
     }
     try {
-      await axios.post("http://localhost:5000/api/v1/sendMessage", user);
+      await axios.post(
+        `${process.env.REACT_APP_BACKEND_URL}/api/v1/sendMessage`,
+        user
+      );
       toast.success("Message sent successfully");
       setUser({
         firstName: "",

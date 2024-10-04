@@ -11,12 +11,14 @@
     color: #fff;
 }
 .logo{
-    padding: 50px 0 120px 0;
-    margin-left: 80px;
+    padding: 0 0 120px 0;
+    /* margin-left: 80px; */
+    margin-left: 55px;
     margin-right: 35px;
+    width: 150px;
 }
 .logo img{
-    width: 170px;
+    width: 100%;
 }
 .tagline-with-steps{
     margin-left: 80px;
