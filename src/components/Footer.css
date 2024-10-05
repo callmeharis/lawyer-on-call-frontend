@@ -14,6 +14,8 @@
     flex-direction: column;
     margin-bottom: 40px;
     margin-top: 72px;
+    margin-left: 80px;
+    margin-right: 35px;
 }
 
 .powered-by {
@@ -41,4 +43,17 @@
 .tos-item{
     color: #666;
     text-decoration: none;
+}
+@media (max-width: 1024px) {
+    .page-footer {
+        align-items: center;
+        margin-bottom: 72px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1024px) {
+    .page-footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
 }

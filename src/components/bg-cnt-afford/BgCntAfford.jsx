@@ -4,7 +4,7 @@ import "./BgCntAfford.css";
 export default function BgCntAfford() {
   return (
     <div className="bg-cnt-afford">
-      <div className="cnt-afford white-bg">
+      <div className="cnt-afford-white-bg">
         <div className="cnt-afford-container">
           <div className="cnt-afford-container-cnt-afford">
             <div className="cnt-afford-container-title-container">

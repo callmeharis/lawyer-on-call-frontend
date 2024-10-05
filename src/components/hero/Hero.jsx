@@ -1,7 +1,8 @@
 import React from "react";
-import "./hero.css";
 import { MdOutlineQuestionMark, MdOutlineMessage } from "react-icons/md";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import ChatBox from "../chat/Chat-Form";
+import "./hero.css";
 
 export default function Hero() {
   return (
@@ -41,7 +42,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="chat-container"></div>
+      <div className="chat-container">
+        <ChatBox />
+      </div>
     </section>
   );
 }

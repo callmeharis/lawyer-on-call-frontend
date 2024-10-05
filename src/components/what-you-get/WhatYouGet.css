@@ -48,3 +48,78 @@
     line-height: 24px;
     width: 80%;
 }
+
+@media(max-width:1130px){
+    .what-you-get-container{
+        width: 100%;
+        margin: 0 30px;
+    }
+}
+@media (max-width: 1024px) {
+    .what-you-get-container {
+        margin-top: 40px;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get {
+        text-align: center;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 32px;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-items {
+        flex-direction: column;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-item {
+        align-items: end;
+        flex-basis: auto;
+        flex-direction: row;
+        margin-bottom: 32px;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-item-image img {
+        height: 160px;
+        margin-bottom: 0;
+        margin-right: 24px;
+        width: 160px;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-item-text {
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-item-headline {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1024px) { */
+@media (max-width: 1024px) {
+    .what-you-get-item-description {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+}

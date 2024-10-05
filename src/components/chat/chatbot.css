@@ -3,7 +3,7 @@
   top: 10%;
   right: 5%;
   z-index: 10;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -92,4 +92,11 @@
 
 .chatBoxFooter button:hover {
   background-color: #2f855a;
+}
+
+@media(max-width:950px){
+  .chatBox{
+    position: static;
+    margin: 0 30px;
+  }
 }

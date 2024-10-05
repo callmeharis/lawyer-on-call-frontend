@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 1366px) and (min-width: 1201px) {
-    .ctn-afford-white0-bg {
+    .ctn-afford-white-bg {
         width: calc(100% - 520px);
     }
 }
@@ -27,6 +27,10 @@
     .cnt-afford-container {
         margin-right: 35px;
     }
+}
+.cnt-afford-container-cnt-afford{
+    margin-left: 80px;
+    margin-right: 35px;
 }
 @media (max-width: 1366px) and (min-width: 1201px) {
         .cnt-afford-container-cnt-afford{
@@ -79,4 +83,55 @@
 .cnt-afford-container-chat-button:hover {
     border: 1px solid #00a507;
     color: #00a507;
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { */
+@media (max-width: 1024px) {
+    .bg-cnt-afford {
+        background-image: url("../../../public/images/cntafford_mobile_landscape.jpg");
+    }
+}
+@media (max-width: 1024px) {
+    .ctn-afford-white-bg {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .cnt-afford-container {
+        margin-top: 450px;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .cnt-afford-container-cnt-afford {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+@media (max-width: 1024px) {
+    .cnt-afford-container-title-container {
+        align-items: center;
+        margin-bottom: 12px;
+        padding-top: 40px;
+        text-align: center;
+        width: auto;
+    }
+}
+@media (max-width: 1024px) {
+    .cnt-afford-container-title {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .cnt-afford-container-description {
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .cnt-afford-container-btn-container {
+        padding-bottom: 48px;
+        text-align: center;
+    }
 }

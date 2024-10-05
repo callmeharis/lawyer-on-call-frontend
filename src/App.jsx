@@ -5,7 +5,6 @@ import ExpertHelp from "./components/expert-help/ExpertHelp";
 import VerifiedExperts from "./components/verified-experts/VerifiedExpert";
 import BgCntAfford from "./components/bg-cnt-afford/BgCntAfford";
 import FooterComponent from "./components/Footer";
-import ChatBox from "./components/chat/Chat-Form";
 
 export default function App() {
   return (
@@ -16,7 +15,6 @@ export default function App() {
       <VerifiedExperts />
       <BgCntAfford />
       <FooterComponent />
-      <ChatBox />
     </div>
   );
 }
