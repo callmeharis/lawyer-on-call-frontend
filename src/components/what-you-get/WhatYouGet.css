@@ -123,3 +123,17 @@
         width: 100%;
     }
 }
+
+@media (max-width: 450px) {
+    .what-you-get-item {
+        align-items: center;
+        flex-basis: auto;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+}
+@media (max-width: 450px) {
+    .what-you-get-item-text {
+        text-align: center;
+    }
+}

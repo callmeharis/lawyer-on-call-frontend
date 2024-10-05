@@ -85,10 +85,17 @@
     color: #00a507;
 }
 
+@media (max-width: 1100px) and (min-width: 1051px) {
+    .ctn-afford-white-bg {
+        width: calc(100% - 439px);
+    }
+}
+
 /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { */
 @media (max-width: 1024px) {
     .bg-cnt-afford {
         background-image: url("../../../public/images/cntafford_mobile_landscape.jpg");
+        background-position: left !important;
     }
 }
 @media (max-width: 1024px) {
