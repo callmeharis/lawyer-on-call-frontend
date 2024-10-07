@@ -8,7 +8,7 @@ export default function ChatBox() {
     firstName: "",
     lastName: "",
     email: "",
-    address: "",
+    message: "",
   });
   const handleChange = (e) => {
     const name = e.target.name;
@@ -17,7 +17,7 @@ export default function ChatBox() {
   };
   const submitHandler = async (e) => {
     e.preventDefault();
-    if (!user.firstName || !user.lastName || !user.email || !user.address) {
+    if (!user.firstName || !user.lastName || !user.email || !user.message) {
       toast.warn("Please fill all the fields");
     }
     try {
@@ -30,7 +30,7 @@ export default function ChatBox() {
         firstName: "",
         lastName: "",
         email: "",
-        address: "",
+        message: "",
       });
     } catch (error) {
       toast.error(error.response.data.message);
@@ -100,10 +100,10 @@ export default function ChatBox() {
         />
         <input
           type="text"
-          placeholder="Enter your address"
+          placeholder="Enter your message"
           className="input"
-          name="address"
-          value={user.address}
+          name="message"
+          value={user.message}
           onChange={handleChange}
         />
         <button className="button" type="submit">

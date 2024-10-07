@@ -13,7 +13,7 @@ export default function VerifiedExperts() {
           and Credit Agreements, and Settlement Agreements */}
         </div>
         <div className="verified-expert-subtitle">
-          Specialities include Real estate Contracts, Business Contracts,
+          Specialities include Real Estate Contracts, Business Contracts,
           Employment Contracts, Construction Contracts, Sales Contracts,
           Insurance Contracts, Franchise Agreements, Licensing Agreements, Loan
           and Credit Agreements, and Settlement Agreements
