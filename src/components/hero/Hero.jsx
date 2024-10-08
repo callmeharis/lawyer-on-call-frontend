@@ -9,7 +9,7 @@ export default function Hero() {
     <section id="hero-section">
       <div className="hero-content">
         <div className="logo">
-          <img src="./the-boyd-group-logo.png" alt="logo" />
+          <img src="./the-boyd-group-logo3.png" alt="logo" />
           {/* <h1>THE BOYD GROUP</h1> */}
         </div>
         <div className="tagline-with-steps">
